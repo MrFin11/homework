@@ -27,7 +27,7 @@ int main()
     point1.SetY(10);
     point1.Print();
     cout << "R1= " << point1.R() << endl; cout << "R2= " << point2.R() << endl; cout << "R3= " << point3.R() << endl;
-    --point3;
+    --point2;
     point3.Print();
     Point point4 = point2 + point3;
     point4.Print();
