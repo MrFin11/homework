@@ -41,7 +41,7 @@ int main()
 	cout << s1.getAge() << endl;
 	cout << s1.getFam() << endl;
 	cout << s1.getNme() << endl;
-	cout << "===========" << endl;
+	cout << "===========";
 	cout << s2.getAge() << endl;
 	cout << s2.getNme() << endl;
 }
