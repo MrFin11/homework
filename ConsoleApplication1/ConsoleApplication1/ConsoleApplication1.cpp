@@ -3,6 +3,7 @@
 using namespace std;
 class student
 {
+private:
 	string name;
 	string fam;
 	int year=2026;
@@ -40,7 +41,7 @@ int main()
 	cout << s1.getAge() << endl;
 	cout << s1.getFam() << endl;
 	cout << s1.getNme() << endl;
-	cout << "========" << endl;
+	cout << "===========" << endl;
 	cout << s2.getAge() << endl;
 	cout << s2.getNme() << endl;
 }
