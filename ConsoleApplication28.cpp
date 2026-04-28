@@ -24,7 +24,7 @@ int main()
     cout << "count= " << Point::count << endl;
     point1.Print();
     point1.SetX(6);
-    point1.SetY(7);
+    point1.SetY(10);
     point1.Print();
     cout << "R1= " << point1.R() << endl; cout << "R2= " << point2.R() << endl; cout << "R3= " << point3.R() << endl;
     --point3;
